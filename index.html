@@ -29,7 +29,10 @@
 
 <link rel="stylesheet" type="text/css" href="dest/css/chosen.css">
 <link rel="stylesheet" type="text/css" href="dest/css/atlas.css">
-
+<button type="button" onclick="myFunction()">
+    Click to View Map Interface
+</button>
+<div class="my-google-map" id="my-map" style="display: none;"></div>
 <div id="atlas">
     <div id="options">
         <p>Filters<p>
@@ -41,10 +44,6 @@
         </tbody>
     </table>
 </div>
-<button type="button" onclick="myFunction()">
-    Click to View Map Interface
-</button>
-<div class="my-google-map" id="my-map" style="display: none;"></div>
 <!-- JAVASCRIPT -->
 <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
