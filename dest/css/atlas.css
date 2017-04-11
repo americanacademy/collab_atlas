@@ -4,7 +4,7 @@ body {
   body #atlas {
     text-align: center;
     width: 100%;
-    margin: 0 auto; }
+    margin: 0; }
     body #atlas #options {
       width: 25%;
       padding-top: 10px;
@@ -26,6 +26,14 @@ body {
         text-align: center;
         font-weight: bold;
         font-size: 1.5em; }
+    body #atlas #my-map {
+      float: top;
+      float: right;
+      position: fixed;
+      top: 0px;
+      height: 250px;
+      width: 75%;
+    }
     body #atlas table {
       width: 75%;
       font-family: serif;
