@@ -48,8 +48,7 @@ body {
   body #atlas {
     text-align: center;
     width: 100%;
-    padding-top: 50px;
-    margin: 0 auto; }
+    margin: 0; }
     /*The filter panel*/
     body #atlas #options {
       width: 25%;
