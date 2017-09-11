@@ -86,20 +86,17 @@ body {
       width: 75%;
       font-family: serif;
       padding-left: 1px;
-      overflow-x: scroll;
       border-spacing: 0;
       float: right; }
       body #atlas table tr {
         cursor: pointer; }
       body #atlas table th {
-        width: 150px;
         font-size: 1.2em;
         height: 50px;
         background-color: rgba(31, 45, 96, 1);
         color: white; }
       body #atlas table td {
         height: 50px;
-        width: 150px;
         border: solid 1px #eee;
         border-collapse: collapse;
         padding: 5px; }
