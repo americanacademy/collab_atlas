@@ -98,8 +98,7 @@ body {
         height: 50px;
         border: solid 1px #eee;
         border-collapse: collapse;
-        /* TO-DO: see if this works */
-        word-wrap:break-word;
+        max-width: 150px;
         padding: 5px; }
 
       body #atlas table tr a:hover {
